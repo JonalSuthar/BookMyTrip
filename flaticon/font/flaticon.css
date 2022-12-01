@@ -1,0 +1,56 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("./flaticon.ttf?a0748738c09aa43f5f3ba6016a3617bf") format("truetype"),
+url("./flaticon.woff?a0748738c09aa43f5f3ba6016a3617bf") format("woff"),
+url("./flaticon.woff2?a0748738c09aa43f5f3ba6016a3617bf") format("woff2"),
+url("./flaticon.eot?a0748738c09aa43f5f3ba6016a3617bf#iefix") format("embedded-opentype"),
+url("./flaticon.svg?a0748738c09aa43f5f3ba6016a3617bf#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-globe:before {
+    content: "\f101";
+}
+.flaticon-flash:before {
+    content: "\f102";
+}
+.flaticon-online:before {
+    content: "\f103";
+}
+.flaticon-documents:before {
+    content: "\f104";
+}
+.flaticon-underground:before {
+    content: "\f105";
+}
+.flaticon-train:before {
+    content: "\f106";
+}
+.flaticon-underground-1:before {
+    content: "\f107";
+}
+.flaticon-train-3:before {
+    content: "\f108";
+}
+.flaticon-credit-card:before {
+    content: "\f109";
+}
+.flaticon-mail:before {
+    content: "\f10a";
+}
+.flaticon-park-tickets-couple:before {
+    content: "\f10b";
+}
+.flaticon-driver-1:before {
+    content: "\f10c";
+}

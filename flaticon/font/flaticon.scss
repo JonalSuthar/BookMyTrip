@@ -1,0 +1,73 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?a0748738c09aa43f5f3ba6016a3617bf") format("truetype"),
+url("./flaticon.woff?a0748738c09aa43f5f3ba6016a3617bf") format("woff"),
+url("./flaticon.woff2?a0748738c09aa43f5f3ba6016a3617bf") format("woff2"),
+url("./flaticon.eot?a0748738c09aa43f5f3ba6016a3617bf#iefix") format("embedded-opentype"),
+url("./flaticon.svg?a0748738c09aa43f5f3ba6016a3617bf#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "globe": "\f101",
+    "flash": "\f102",
+    "online": "\f103",
+    "documents": "\f104",
+    "underground": "\f105",
+    "train": "\f106",
+    "underground-1": "\f107",
+    "train-3": "\f108",
+    "credit-card": "\f109",
+    "mail": "\f10a",
+    "park-tickets-couple": "\f10b",
+    "driver-1": "\f10c",
+);
+
+.flaticon-globe:before {
+    content: map-get($flaticon-map, "globe");
+}
+.flaticon-flash:before {
+    content: map-get($flaticon-map, "flash");
+}
+.flaticon-online:before {
+    content: map-get($flaticon-map, "online");
+}
+.flaticon-documents:before {
+    content: map-get($flaticon-map, "documents");
+}
+.flaticon-underground:before {
+    content: map-get($flaticon-map, "underground");
+}
+.flaticon-train:before {
+    content: map-get($flaticon-map, "train");
+}
+.flaticon-underground-1:before {
+    content: map-get($flaticon-map, "underground-1");
+}
+.flaticon-train-3:before {
+    content: map-get($flaticon-map, "train-3");
+}
+.flaticon-credit-card:before {
+    content: map-get($flaticon-map, "credit-card");
+}
+.flaticon-mail:before {
+    content: map-get($flaticon-map, "mail");
+}
+.flaticon-park-tickets-couple:before {
+    content: map-get($flaticon-map, "park-tickets-couple");
+}
+.flaticon-driver-1:before {
+    content: map-get($flaticon-map, "driver-1");
+}
